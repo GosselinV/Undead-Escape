@@ -55,7 +55,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -73,7 +72,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.ToggleGroup
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
     Assets/scenes/MainMenu.unity:
@@ -246,9 +244,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 15744}
+      Script: {instanceID: 17466}
     - Class: 114
-      Script: {instanceID: 15766}
+      Script: {instanceID: 17486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -383,9 +381,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 15744}
+      Script: {instanceID: 17466}
     - Class: 114
-      Script: {instanceID: 15766}
+      Script: {instanceID: 17486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1289,5 +1287,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/scenes/MainMenu.unity
   - Assets/scenes/map0.unity
-  playerPath: E:/Google Drive/games/Coursera/course5/week2/Undead Escape/Build/Undead
-    Escape.exe
+  playerPath: E:/Google Drive/games/Undead-Escape/Build/Undead Escape.exe
