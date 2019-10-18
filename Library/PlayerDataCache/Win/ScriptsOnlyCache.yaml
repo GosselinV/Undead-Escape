@@ -33,6 +33,7 @@ ScriptsOnlyBuild:
     - Panel
     - PauseMenu
     - Player
+    - Quit
     - Restart
     - Resume
     - StartGame
@@ -201,6 +202,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11208}
     - Class: 114
+      Script: {instanceID: 11224}
+    - Class: 114
       Script: {instanceID: 11234}
     - Class: 114
       Script: {instanceID: 11236}
@@ -243,9 +246,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 15606}
+      Script: {instanceID: 15744}
     - Class: 114
-      Script: {instanceID: 15626}
+      Script: {instanceID: 15766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -380,9 +383,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 15606}
+      Script: {instanceID: 15744}
     - Class: 114
-      Script: {instanceID: 15626}
+      Script: {instanceID: 15766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124

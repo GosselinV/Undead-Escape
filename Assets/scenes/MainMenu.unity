@@ -1538,6 +1538,7 @@ GameObject:
   - component: {fileID: 765212065}
   - component: {fileID: 765212064}
   - component: {fileID: 765212063}
+  - component: {fileID: 765212066}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -1607,7 +1608,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 765212064}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 765212066}
+        m_MethodName: Handle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &765212064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,6 +1656,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765212061}
   m_CullTransparentMesh: 0
+--- !u!114 &765212066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765212061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36847ad960368fa4082204a3143a70bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 0}
+  gameState: 0
+  lootCrates: []
+  mainMenu: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  helpAbout: {fileID: 0}
+  helpUI: {fileID: 0}
+  helpControls: {fileID: 0}
+  helpDifficulties: {fileID: 0}
+  difficultiesMenu: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!1 &790163799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8537137129106356216, guid: ce6fccc00320e1e4286a0c5ceb0de643,
