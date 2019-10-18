@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - creature
+  - continue
+  - tile
+  - player
+  - enemyHover
+  - MainMenu
+  - Help
+  - Options
+  - HUD
+  - PauseMenu
+  - HelpMenu
+  - 0-toddler
+  - 1-walk
+  - 2-fight
+  - 3-bleed
+  - UImenu
+  - HelpControls
+  - HelpDifficulties
+  - inventory
+  - lootCrate
+  - StartingGear
+  - HelpUI
+  - HelpAbout
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
